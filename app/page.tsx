@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 const stats = [
   { value: 25, suffix: "+", label: "Years of Experience" },
-  { value: 50, suffix: "+", label: "Countries Served" },
+  { value: 50, suffix: "+", label: "Product Variants" },
   { value: 10, suffix: "K+", label: "Products Delivered" },
   { value: 500, suffix: "+", label: "Happy Clients" },
 ];
@@ -29,8 +29,8 @@ const features = [
     ),
   },
   {
-    title: "Global Export",
-    description: "Trusted export partner serving clients across 50+ countries with reliable logistics and timely delivery.",
+    title: "Export-Quality Manufacturing",
+    description: "Manufactured to export-quality standards with precision engineering, reliable timelines and consistent finish.",
     icon: (
       <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
     ),
@@ -61,68 +61,70 @@ const products = [
 export default function Home() {
   return (
     <>
-      {/* Hero */}
-      <section className="hero-gradient animate-gradient relative overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-[0.18]" />
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-950/10 via-transparent to-secondary/20" />
-        {/* decorative blobs */}
-        <div className="pointer-events-none absolute -top-28 -right-28 h-[520px] w-[520px] rounded-full bg-white/10 blur-3xl animate-float" />
-        <div className="pointer-events-none absolute -bottom-40 -left-24 h-[560px] w-[560px] rounded-full bg-sky-300/10 blur-3xl animate-float-slow" />
-        <div className="pointer-events-none absolute top-1/2 left-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/[0.04] blur-3xl" />
+      {/* Hero - LIGHT THEME */}
+      <section className="relative overflow-hidden bg-gradient-to-b from-white via-[#f6f8ff] to-[#eef2ff]">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_420px_at_20%_0%,rgba(27,44,193,0.07),transparent_60%)]" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(700px_380px_at_90%_15%,rgba(118,146,255,0.12),transparent_65%)]" />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(600px_300px_at_50%_100%,rgba(171,210,250,0.25),transparent_60%)]" />
+        <div className="absolute inset-0 grid-pattern opacity-[0.03]" />
+        {/* decorative blobs - light */}
+        <div className="pointer-events-none absolute -top-28 -right-28 h-[520px] w-[520px] rounded-full bg-[#1B2CC1]/5 blur-3xl animate-float" />
+        <div className="pointer-events-none absolute -bottom-40 -left-24 h-[560px] w-[560px] rounded-full bg-[#7692FF]/10 blur-3xl animate-float-slow" />
+        <div className="pointer-events-none absolute top-1/2 left-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/60 blur-3xl" />
 
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-28">
           <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="max-w-2xl">
-              <div className="animate-fadeInUp inline-flex items-center gap-2.5 rounded-full glass px-3.5 py-1.5 text-xs font-semibold tracking-wide text-white shadow-lg">
+              <div className="animate-fadeInUp inline-flex items-center gap-2.5 rounded-full bg-white px-3.5 py-1.5 text-xs font-semibold tracking-wide text-secondary shadow-sm ring-1 ring-gray-200">
                 <span className="relative flex h-2 w-2">
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
                   <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
                 </span>
-                Trusted by 500+ clients in 50+ countries
+                Trusted by 500+ clients • 25+ Years Manufacturing
               </div>
 
-              <h1 className="animate-fadeInUp delay-100 mt-5 text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-[56px] leading-[0.95]">
-                <span className="block">Premium Steel</span>
-                <span className="block bg-gradient-to-r from-sky-200 via-white to-sky-100 bg-clip-text text-transparent pb-1">Manufacturing & Export</span>
+              <h1 className="animate-fadeInUp delay-100 mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-[56px] leading-[0.95]">
+                <span className="block text-secondary">Premium Steel</span>
+                <span className="block bg-gradient-to-r from-[#1B2CC1] via-[#4158f5] to-[#7692FF] bg-clip-text text-transparent pb-1">Manufacturing Solutions</span>
               </h1>
 
-              <p className="animate-fadeInUp delay-200 mt-5 max-w-xl text-[17px] leading-relaxed text-blue-50/90">
-                Gratus India is a trusted name in steel manufacturing and export, delivering high-quality steel products and wire solutions to clients across the globe for over 25 years.
+              <p className="animate-fadeInUp delay-200 mt-5 max-w-xl text-[17px] leading-relaxed text-gray-600">
+                Gratus India is a trusted name in steel manufacturing, delivering high-quality steel products and wire solutions built to export-quality standards for over 25 years.
               </p>
 
               <div className="animate-fadeInUp delay-300 mt-8 flex flex-col gap-3.5 sm:flex-row">
                 <Link
                   href="/products"
-                  className="btn-shine group inline-flex items-center justify-center rounded-full bg-white px-7 py-3.5 text-[15px] font-bold tracking-wide text-primary shadow-xl shadow-blue-900/20 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 active:translate-y-0"
+                  className="btn-shine group inline-flex items-center justify-center rounded-full bg-[#091540] px-7 py-3.5 text-[15px] font-bold tracking-wide text-white shadow-xl shadow-[#091540]/15 transition-all duration-300 hover:bg-[#0f1e6e] hover:shadow-2xl hover:-translate-y-1 active:translate-y-0"
                 >
                   View Products
                   <svg className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                 </Link>
                 <Link
                   href="/contact"
-                  className="group inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 backdrop-blur-xl px-7 py-3.5 text-[15px] font-semibold text-white shadow-lg ring-1 ring-white/10 transition-all duration-300 hover:bg-white hover:text-primary hover:border-white hover:-translate-y-0.5"
+                  className="group inline-flex items-center justify-center rounded-full border border-gray-200 bg-white px-7 py-3.5 text-[15px] font-semibold text-secondary shadow-sm ring-1 ring-black/5 transition-all duration-300 hover:bg-secondary hover:text-white hover:border-secondary hover:-translate-y-0.5"
                 >
-                  <span className="mr-2 flex h-7 w-7 items-center justify-center rounded-full bg-white/15 group-hover:bg-primary/10 transition">
+                  <span className="mr-2 flex h-7 w-7 items-center justify-center rounded-full bg-secondary text-white group-hover:bg-white group-hover:text-secondary transition">
                     <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132a1 1 0 00-1.506 1.13l1.11 3.57-1.11 3.57a1 1 0 001.506 1.13l3.197-2.132a1 1 0 000-1.668z" /></svg>
                   </span>
                   Get a Quote
                 </Link>
               </div>
 
-              <div className="animate-fadeIn delay-500 mt-8 flex items-center gap-6 border-t border-white/10 pt-6">
+              <div className="animate-fadeIn delay-500 mt-8 flex items-center gap-6 border-t border-gray-200 pt-6">
                 <div className="flex -space-x-2">
                   {[1,2,3,4].map((i)=>(
-                    <span key={i} className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[11px] font-bold text-secondary ring-2 ring-white/20">{String.fromCharCode(64+i)}</span>
+                    <span key={i} className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary text-[11px] font-bold text-white ring-2 ring-white shadow-sm">{String.fromCharCode(64+i)}</span>
                   ))}
                 </div>
-                <div className="text-sm text-blue-100">
-                  <div className="flex items-center gap-1 font-semibold text-white">
-                    <span className="flex items-center gap-0.5 text-amber-300">★★★★★</span> 4.9/5
+                <div className="text-sm text-gray-600">
+                  <div className="flex items-center gap-1 font-semibold text-secondary">
+                    <span className="flex items-center gap-0.5 text-amber-400">★★★★★</span> 4.9/5
                   </div>
-                  <span className="text-xs text-blue-200">from 1,200+ reviews</span>
+                  <span className="text-xs text-gray-500">from 1,200+ reviews</span>
                 </div>
-                <div className="hidden sm:flex items-center gap-2 text-xs font-medium text-blue-100 ml-auto">
-                  <span className="h-px w-6 bg-white/20" /> Export Ready • On-time Delivery
+                <div className="hidden sm:flex items-center gap-2 text-xs font-medium text-gray-600 ml-auto">
+                  <span className="h-px w-6 bg-primary/20" /> Export-Quality • On-time Delivery
                 </div>
               </div>
             </div>
@@ -176,11 +178,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-secondary/40 to-transparent" />
+        <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-[#eef2ff] to-transparent" />
       </section>
 
       {/* Marquee */}
-      <Marquee items={["Export to 50+ Countries", "25+ Years Excellence", "500+ Happy Clients", "100K+ Tons Capacity", "Global Logistics"]} speed="30s" />
+      <Marquee items={["Export-Quality Standards", "25+ Years Manufacturing", "500+ Happy Clients", "100K+ Tons Capacity", "Precision Engineering"]} speed="30s" />
 
       {/* Stats */}
       <section className="bg-secondary relative overflow-hidden py-10 sm:py-12">
@@ -218,13 +220,12 @@ export default function Home() {
               <div className="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1 text-xs font-bold tracking-widest text-primary ring-1 ring-gray-200 shadow-sm">
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
                 WHY GRATUS INDIA
-                <span className="ml-1 hidden sm:inline-flex rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-bold tracking-widest">TRUSTED • 50+ COUNTRIES</span>
               </div>
               <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-secondary sm:text-4xl lg:text-[38px]">
                 <TextReveal text="Why Choose Gratus India ?" />
               </h2>
               <p className="mx-auto mt-4 max-w-2xl text-[15.5px] leading-relaxed text-gray-600">
-                Trusted by industries worldwide for quality steel solutions and dependable export operations — precision made, export ready.
+                Trusted by industries for quality steel solutions and precision manufacturing — built to export-quality standards.
               </p>
               <div className="section-divider mx-auto mt-6 w-28" />
             </div>
@@ -255,8 +256,7 @@ export default function Home() {
 
           <Reveal delay={400}>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-3 text-xs font-semibold">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-secondary ring-1 ring-gray-200">Lab Tested • Export Ready</span>
-              <Link href="/contact" className="inline-flex items-center gap-1 rounded-full bg-primary px-4 py-2 text-white shadow hover:bg-primary-dark transition">Get a quote →</Link>
+              <Link href="/contact" className="inline-flex items-center gap-1 rounded-full bg-primary px-6 py-2.5 text-white shadow hover:bg-primary-dark transition">Get a quote →</Link>
             </div>
           </Reveal>
         </div>
@@ -277,7 +277,7 @@ export default function Home() {
                   <span className="hidden sm:inline-flex rounded-full bg-primary/10 px-2 py-0.5 text-[10px]">4 FEATURED • IN STOCK</span>
                 </div>
                 <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-secondary sm:text-4xl">Built for Every Industry</h2>
-                <p className="mt-2 max-w-xl text-[15px] leading-relaxed text-gray-600">Comprehensive steel solutions — precision engineered, globally certified. Item-wise catalogue ready for export.</p>
+                <p className="mt-2 max-w-xl text-[15px] leading-relaxed text-gray-600">Comprehensive steel solutions — precision engineered, manufactured to export-quality standards.</p>
                 <div className="section-divider mt-4 w-20 hidden sm:block" />
               </div>
               <Link href="/products" className="hidden md:inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-primary ring-1 ring-gray-200 shadow-sm transition-all hover:bg-primary hover:text-white hover:ring-primary">
@@ -388,8 +388,7 @@ export default function Home() {
               </div>
               <div className="mt-6 flex flex-wrap justify-center gap-2 text-[11px] font-semibold tracking-wide text-white/70">
                 <span className="rounded-full bg-white/10 px-3 py-1 ring-1 ring-white/10">No obligation quote</span>
-                <span className="rounded-full bg-white/10 px-3 py-1 ring-1 ring-white/10">Export docs included</span>
-                <span className="rounded-full bg-white/10 px-3 py-1 ring-1 ring-white/10">Lab test reports</span>
+                <span className="rounded-full bg-white/10 px-3 py-1 ring-1 ring-white/10">Quality docs included</span>
               </div>
             </div>
           </Reveal>

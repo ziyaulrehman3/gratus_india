@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     "India steel company",
     "Gratus India",
   ],
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
