@@ -1,0 +1,1475 @@
+{
+  "list1.xlsx": [
+    {
+      "excel_row": 2,
+      "sr": 1,
+      "name": "Floor Lamp without shade",
+      "size": "Height 48\"",
+      "electric": "E-27 Holder With 3 Mtr Wire With ON/OFF switch & 2 pin plug",
+      "material": "Iron",
+      "price": "880/inr",
+      "moq": "24pcs",
+      "image": "/list-images/list1-row2-image1.png"
+    },
+    {
+      "excel_row": 3,
+      "sr": 5,
+      "name": "Floor Lamp without shade",
+      "size": "Height 48\"",
+      "electric": "E-27 Holder With 3 Mtr Wire With ON/OFF switch & 2 pin plug",
+      "material": "Wood & Iron",
+      "price": "900/inr",
+      "moq": "24pcs",
+      "image": "/list-images/list1-row3-image2.jpeg"
+    },
+    {
+      "excel_row": 4,
+      "sr": 6,
+      "name": "Floor Lamp without shade",
+      "size": "Height 48\"",
+      "electric": "E-27 Holder With 3 Mtr Wire With ON/OFF switch & 2 pin plug",
+      "material": "Iron",
+      "price": "950/inr",
+      "moq": "24pcs",
+      "image": "/list-images/list1-row4-image3.jpeg"
+    },
+    {
+      "excel_row": 5,
+      "sr": 6,
+      "name": "Floor Lamp without shade",
+      "size": "Height 48\"",
+      "electric": "E-27 Holder With 3 Mtr Wire With ON/OFF switch & 2 pin plug",
+      "material": "Iron",
+      "price": "850/inr",
+      "moq": "24pcs",
+      "image": "/list-images/list1-row5-image6.jpeg"
+    },
+    {
+      "excel_row": 6,
+      "sr": 6,
+      "name": "Floor Lamp without shade",
+      "size": "Height 48\"",
+      "electric": "E-27 Holder With 3 Mtr Wire With ON/OFF switch & 2 pin plug",
+      "material": "Iron",
+      "price": "920/inr",
+      "moq": "24pcs",
+      "image": "/list-images/list1-row6-image5.jpeg"
+    },
+    {
+      "excel_row": 7,
+      "sr": 6,
+      "name": "Floor Lamp without shade",
+      "size": "Height 48\"",
+      "electric": "E-27 Holder With 3 Mtr Wire With ON/OFF switch & 2 pin plug",
+      "material": "Iron",
+      "price": "840/inr",
+      "moq": "24pcs",
+      "image": "/list-images/list1-row7-image4.jpeg"
+    }
+  ],
+  "list2.xlsx": [
+    {
+      "excel_row": 2,
+      "sr": 101,
+      "name": "Hanging Light",
+      "size": "21 cm, 21 cm, 20 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "450/",
+      "image": "/list-images/list2-row2-image46.jpeg"
+    },
+    {
+      "excel_row": 3,
+      "sr": 102,
+      "name": "Hanging Light",
+      "size": "16 cm, 16 cm, 23 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row3-image47.jpeg"
+    },
+    {
+      "excel_row": 4,
+      "sr": 103,
+      "name": "Hanging Light",
+      "size": "7.6 Inch 7.6 Inch, 5.1 Inch",
+      "material": "mango wood and iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "380/",
+      "image": "/list-images/list2-row4-image48.jpeg"
+    },
+    {
+      "excel_row": 5,
+      "sr": 104,
+      "name": "Hanging Light",
+      "size": "15 cm, 15 cm, 25 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "450/",
+      "image": "/list-images/list2-row5-image49.jpeg"
+    },
+    {
+      "excel_row": 6,
+      "sr": 105,
+      "name": "Hanging Light",
+      "size": "19 cm, 19 cm, 21 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "320/",
+      "image": "/list-images/list2-row6-image50.jpeg"
+    },
+    {
+      "excel_row": 7,
+      "sr": 106,
+      "name": "Hanging Light",
+      "size": "25 cm, 25 cm, 12 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "300/",
+      "image": "/list-images/list2-row7-image51.jpeg"
+    },
+    {
+      "excel_row": 8,
+      "sr": 107,
+      "name": "Hanging Light",
+      "size": "30 cm, 30 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "480/",
+      "image": "/list-images/list2-row8-image52.jpeg"
+    },
+    {
+      "excel_row": 9,
+      "sr": 108,
+      "name": "Hanging Light",
+      "size": "5.3 Inch, 5.3 Inch, 7.5 Inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "450/",
+      "image": "/list-images/list2-row9-image53.jpeg"
+    },
+    {
+      "excel_row": 10,
+      "sr": 109,
+      "name": "Hanging Light",
+      "size": "18 cm, 18 cm, 18 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "450/",
+      "image": "/list-images/list2-row10-image54.jpeg"
+    },
+    {
+      "excel_row": 11,
+      "sr": 110,
+      "name": "Hanging Light",
+      "size": "7.9 Inch, 7.9 Inch, 8.9 Inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "580/",
+      "image": "/list-images/list2-row11-image55.jpeg"
+    },
+    {
+      "excel_row": 12,
+      "sr": 111,
+      "name": "Hanging Light",
+      "size": "25 cm, 25 cm, 20 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "290/",
+      "image": "/list-images/list2-row12-image56.jpeg"
+    },
+    {
+      "excel_row": 13,
+      "sr": 112,
+      "name": "Hanging Light",
+      "size": "22 cm, 22 cm, 26 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row13-image1.jpeg"
+    },
+    {
+      "excel_row": 14,
+      "sr": 113,
+      "name": "Hanging Light",
+      "size": "22 cm, 22 cm, 26 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "300/",
+      "image": "/list-images/list2-row14-image2.jpeg"
+    },
+    {
+      "excel_row": 15,
+      "sr": 114,
+      "name": "Hanging Light",
+      "size": "20 cm, 20 cm, 20 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "450/",
+      "image": "/list-images/list2-row15-image3.jpeg"
+    },
+    {
+      "excel_row": 16,
+      "sr": 115,
+      "name": "Hanging Light",
+      "size": "20 cm, 20 cm, 45 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "500/",
+      "image": "/list-images/list2-row16-image4.jpeg"
+    },
+    {
+      "excel_row": 17,
+      "sr": 116,
+      "name": "Hanging Light",
+      "size": "20 cm, 20 cm, 30 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "500/",
+      "image": "/list-images/list2-row17-image5.jpeg"
+    },
+    {
+      "excel_row": 18,
+      "sr": 117,
+      "name": "Hanging Light",
+      "size": "12 cm, 12 cm, 16 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "250/",
+      "image": "/list-images/list2-row18-image6.jpeg"
+    },
+    {
+      "excel_row": 19,
+      "sr": 118,
+      "name": "Hanging Light",
+      "size": "20 cm, 20 cm, 40 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "500/",
+      "image": "/list-images/list2-row19-image7.jpeg"
+    },
+    {
+      "excel_row": 20,
+      "sr": 119,
+      "name": "Hanging Light",
+      "size": "21 cm, 21 cm, 20 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "450/",
+      "image": "/list-images/list2-row20-image8.jpeg"
+    },
+    {
+      "excel_row": 21,
+      "sr": 120,
+      "name": "Hanging Light",
+      "size": "25 cm, 25 cm, 100 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "750/",
+      "image": "/list-images/list2-row21-image9.jpeg"
+    },
+    {
+      "excel_row": 22,
+      "sr": 121,
+      "name": "Hanging Light",
+      "size": "25 cm, 25 cm, 100 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "800/",
+      "image": "/list-images/list2-row22-image10.jpeg"
+    },
+    {
+      "excel_row": 23,
+      "sr": 122,
+      "name": "Hanging Light",
+      "size": "19 cm, 19 cm, 21 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row23-image11.jpeg"
+    },
+    {
+      "excel_row": 24,
+      "sr": 123,
+      "name": "Hanging Light",
+      "size": "13 cm, 13 cm, 26 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "440/",
+      "image": "/list-images/list2-row24-image12.jpeg"
+    },
+    {
+      "excel_row": 25,
+      "sr": 124,
+      "name": "Hanging Light",
+      "size": "25 cm, 25 cm, 12 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "300/",
+      "image": "/list-images/list2-row25-image13.jpeg"
+    },
+    {
+      "excel_row": 26,
+      "sr": 125,
+      "name": "Hanging Light",
+      "size": "25 cm, 25 cm, 12 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "300/",
+      "image": "/list-images/list2-row26-image14.jpeg"
+    },
+    {
+      "excel_row": 27,
+      "sr": 126,
+      "name": "Hanging Light",
+      "size": "20 cm, 20 cm, 20 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "390/",
+      "image": "/list-images/list2-row27-image15.jpeg"
+    },
+    {
+      "excel_row": 28,
+      "sr": 127,
+      "name": "Hanging Light",
+      "size": "14 cm, 14 cm, 26 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "300/",
+      "image": "/list-images/list2-row28-image16.jpeg"
+    },
+    {
+      "excel_row": 29,
+      "sr": 128,
+      "name": "Hanging Light",
+      "size": "24 cm, 24 cm, 13 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "300/",
+      "image": "/list-images/list2-row29-image17.jpeg"
+    },
+    {
+      "excel_row": 30,
+      "sr": 129,
+      "name": "Hanging Light",
+      "size": "17 cm, 17 cm, 21 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row30-image18.jpeg"
+    },
+    {
+      "excel_row": 31,
+      "sr": 130,
+      "name": "Hanging Light",
+      "size": "25 cm, 24 cm, 13 cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row31-image19.jpeg"
+    },
+    {
+      "excel_row": 32,
+      "sr": 131,
+      "name": "Hanging Light",
+      "size": "4.8 Inch, 4.8 Inch, 11.4 Inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "450/",
+      "image": "/list-images/list2-row32-image20.jpeg"
+    },
+    {
+      "excel_row": 33,
+      "sr": 132,
+      "name": "Hanging Light",
+      "size": "",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row33-image21.jpeg"
+    },
+    {
+      "excel_row": 34,
+      "sr": 133,
+      "name": "Hanging Light",
+      "size": "9.1x8.3inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row34-image22.jpeg"
+    },
+    {
+      "excel_row": 35,
+      "sr": 134,
+      "name": "Hanging Light",
+      "size": "16x16x26cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "400/",
+      "image": "/list-images/list2-row35-image23.jpeg"
+    },
+    {
+      "excel_row": 36,
+      "sr": 135,
+      "name": "Hanging Light",
+      "size": "9.1x8.3inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "400/",
+      "image": "/list-images/list2-row36-image24.jpeg"
+    },
+    {
+      "excel_row": 37,
+      "sr": 136,
+      "name": "Hanging Light",
+      "size": "6.5x9.1inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row37-image25.jpeg"
+    },
+    {
+      "excel_row": 38,
+      "sr": 137,
+      "name": "Hanging Light",
+      "size": "9.1x8.3inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row38-image26.jpeg"
+    },
+    {
+      "excel_row": 39,
+      "sr": 138,
+      "name": "Hanging Light",
+      "size": "6.5x9.1inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row39-image27.jpeg"
+    },
+    {
+      "excel_row": 40,
+      "sr": 139,
+      "name": "Hanging Light",
+      "size": "9.1x8.3inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row40-image28.jpeg"
+    },
+    {
+      "excel_row": 41,
+      "sr": 140,
+      "name": "Hanging Light",
+      "size": "6.5x9.1inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row41-image29.jpeg"
+    },
+    {
+      "excel_row": 42,
+      "sr": 141,
+      "name": "Hanging Light",
+      "size": "",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row42-image30.jpeg"
+    },
+    {
+      "excel_row": 43,
+      "sr": 142,
+      "name": "Hanging Light",
+      "size": "6.5x9.1inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row43-image31.jpeg"
+    },
+    {
+      "excel_row": 44,
+      "sr": 143,
+      "name": "Hanging Light",
+      "size": "9.1x8.3inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350/",
+      "image": "/list-images/list2-row44-image32.jpeg"
+    },
+    {
+      "excel_row": 45,
+      "sr": 144,
+      "name": "Hanging Light",
+      "size": "6.5x9.1inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "350",
+      "image": "/list-images/list2-row45-image33.jpeg"
+    },
+    {
+      "excel_row": 46,
+      "sr": 145,
+      "name": "Hanging Light",
+      "size": "9.1x8.3inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "380/",
+      "image": "/list-images/list2-row46-image34.jpeg"
+    },
+    {
+      "excel_row": 47,
+      "sr": 146,
+      "name": "Hanging Light",
+      "size": "6.5x9.1inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "400/",
+      "image": "/list-images/list2-row47-image35.jpeg"
+    },
+    {
+      "excel_row": 48,
+      "sr": 147,
+      "name": "Hanging Light",
+      "size": "9.1x8.3inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "400/",
+      "image": "/list-images/list2-row48-image36.jpeg"
+    },
+    {
+      "excel_row": 49,
+      "sr": 148,
+      "name": "Hanging Light",
+      "size": "6.5x9.1inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "400/",
+      "image": "/list-images/list2-row49-image37.jpeg"
+    },
+    {
+      "excel_row": 50,
+      "sr": 149,
+      "name": "Hanging Light",
+      "size": "9.1x8.3inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "360/",
+      "image": "/list-images/list2-row50-image38.jpeg"
+    },
+    {
+      "excel_row": 51,
+      "sr": 150,
+      "name": "Hanging Light",
+      "size": "6.5x9.1inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "800/",
+      "image": "/list-images/list2-row51-image39.jpeg"
+    },
+    {
+      "excel_row": 52,
+      "sr": 151,
+      "name": "Hanging Light",
+      "size": "9.1x8.3inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "900/",
+      "image": "/list-images/list2-row52-image40.jpeg"
+    },
+    {
+      "excel_row": 53,
+      "sr": 152,
+      "name": "Hanging Light",
+      "size": "6.5x9.1inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "800/",
+      "image": "/list-images/list2-row53-image41.jpeg"
+    },
+    {
+      "excel_row": 54,
+      "sr": 153,
+      "name": "Hanging Light",
+      "size": "9.1x8.3inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "1200/",
+      "image": "/list-images/list2-row54-image42.jpeg"
+    },
+    {
+      "excel_row": 55,
+      "sr": 154,
+      "name": "Hanging Light",
+      "size": "6.5x9.1inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "1200/",
+      "image": "/list-images/list2-row55-image43.jpeg"
+    },
+    {
+      "excel_row": 56,
+      "sr": 155,
+      "name": "Hanging Light",
+      "size": "9.1x8.3inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "500/",
+      "image": "/list-images/list2-row56-image44.jpeg"
+    },
+    {
+      "excel_row": 57,
+      "sr": 156,
+      "name": "Hanging Light",
+      "size": "6.5x9.1inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "2500/",
+      "image": "/list-images/list2-row57-image45.jpeg"
+    },
+    {
+      "excel_row": 58,
+      "sr": 157,
+      "name": "Hanging Light",
+      "size": "12x12x13.5inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "450/-",
+      "image": "/list-images/list2-row58-image57.jpeg"
+    },
+    {
+      "excel_row": 59,
+      "sr": 158,
+      "name": "Hanging Light",
+      "size": "11.6x11.6x14.inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "450/-",
+      "image": "/list-images/list2-row59-image58.jpeg"
+    },
+    {
+      "excel_row": 60,
+      "sr": 159,
+      "name": "Hanging Light",
+      "size": "13x15inch",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "440/-",
+      "image": "/list-images/list2-row60-image59.jpeg"
+    },
+    {
+      "excel_row": 61,
+      "sr": 160,
+      "name": "Hanging Light",
+      "size": "19x26cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "480/-",
+      "image": "/list-images/list2-row61-image60.jpeg"
+    },
+    {
+      "excel_row": 62,
+      "sr": 161,
+      "name": "Hanging Light",
+      "size": "600x510mm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "450/-",
+      "image": "/list-images/list2-row62-image61.jpeg"
+    },
+    {
+      "excel_row": 63,
+      "sr": 162,
+      "name": "Hanging Light",
+      "size": "28x18cm",
+      "material": "iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "450/-",
+      "image": "/list-images/list2-row63-image62.jpeg"
+    },
+    {
+      "excel_row": 64,
+      "sr": 163,
+      "name": "Hanging Light",
+      "size": "39x25cm",
+      "material": "mango wood and iron",
+      "electric": "E 27 holder           1 mtr wire",
+      "price": "400/-",
+      "image": "/list-images/list2-row64-image63.jpeg"
+    }
+  ],
+  "list3.xlsx": [
+    {
+      "excel_row": 7,
+      "sr": 1,
+      "name": "Items : Table Lamp",
+      "size": "Size : 8\" x 8\" x 14\"",
+      "material": "Material  :  Wood & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "348/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row7-image1.jpeg"
+    },
+    {
+      "excel_row": 11,
+      "sr": 2,
+      "name": "Items : Table Lamp",
+      "size": "Size : 8\" x 8\" x 14\"",
+      "material": "Material  :  Wood & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "348/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row11-image2.jpeg"
+    },
+    {
+      "excel_row": 15,
+      "sr": 3,
+      "name": "Items : Table Lamp",
+      "size": "Size : 8\" x 8\" x 15\"",
+      "material": "Material  :  Wood & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "390/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row15-image3.jpeg"
+    },
+    {
+      "excel_row": 19,
+      "sr": 4,
+      "name": "Items : Table Lamp",
+      "size": "Size : 8\" x 8\" x 14\"",
+      "material": "Material  :  Wood & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "340/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row19-image4.jpeg"
+    },
+    {
+      "excel_row": 23,
+      "sr": 5,
+      "name": "Items : Table Lamp",
+      "size": "Size : 6\" x 6\" x 12\"",
+      "material": "Material  :  Wood & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "328/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row23-image4.jpeg"
+    },
+    {
+      "excel_row": 27,
+      "sr": 6,
+      "name": "Items : Table Lamp",
+      "size": "Size : 8\" x 8\" x 12\"",
+      "material": "Material  :  Wood & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "398/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row27-image5.jpeg"
+    },
+    {
+      "excel_row": 31,
+      "sr": 7,
+      "name": "Items : Table Lamp",
+      "size": "Size : 8\" x 8\" x 12\"",
+      "material": "Material  :  Iron & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "340/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row31-image6.jpeg"
+    },
+    {
+      "excel_row": 35,
+      "sr": 8,
+      "name": "Items : Table Lamp",
+      "size": "Size : 8\" x 8\" x 12\"",
+      "material": "Material  :  Iron & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "340/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row35-image7.jpeg"
+    },
+    {
+      "excel_row": 39,
+      "sr": 9,
+      "name": "Items : Table Lamp",
+      "size": "Size : 5\" x 5\" x 12\"",
+      "material": "Material  : Wood & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "338/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row39-image8.jpeg"
+    },
+    {
+      "excel_row": 43,
+      "sr": 10,
+      "name": "Items : Table Lamp",
+      "size": "Size : 7\" x 7\" x 12\"",
+      "material": "Material  :  Iron & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "338/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row43-image9.jpeg"
+    },
+    {
+      "excel_row": 47,
+      "sr": 11,
+      "name": "Items : Table Lamp",
+      "size": "Size : 8\" x 8\" x 14\"",
+      "material": "Material  :  Wood & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "380/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row47-image10.jpeg"
+    },
+    {
+      "excel_row": 51,
+      "sr": 12,
+      "name": "Items : Table Lamp",
+      "size": "Size : 8\" x 8\" x 14\"",
+      "material": "Material  : Wood & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "350/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row51-image11.jpeg"
+    },
+    {
+      "excel_row": 55,
+      "sr": 13,
+      "name": "Items : Table Lamp",
+      "size": "Size : 5\" x 5\" x 17\"",
+      "material": "Material  :  Iron & Wood",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "550/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row55-image15.png"
+    },
+    {
+      "excel_row": 59,
+      "sr": 14,
+      "name": "Items : Table Lamp",
+      "size": "Size : 7\" x 7\" x 12\"",
+      "material": "Material  :  Iron & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "540/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row59-image12.png"
+    },
+    {
+      "excel_row": 63,
+      "sr": 15,
+      "name": "Items : Table Lamp",
+      "size": "Size : 5\" x 5\" x 11\"",
+      "material": "Material  :  Wood  & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "338/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row63-image13.jpeg"
+    },
+    {
+      "excel_row": 67,
+      "sr": 16,
+      "name": "Items : Table Lamp",
+      "size": "Size : 5\" x 5\" x 12\"",
+      "material": "Material  :  Wood & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "340/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row67-image14.jpeg"
+    },
+    {
+      "excel_row": 71,
+      "sr": 17,
+      "name": "Items : Table Lamp",
+      "size": "Size : 6\" x 6\" x 16\"",
+      "material": "Material  :  Iron",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "600/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row71-image16.jpeg"
+    },
+    {
+      "excel_row": 75,
+      "sr": 18,
+      "name": "Items : Table Lamp",
+      "size": "Size : 8\" x 8\" x 11\"",
+      "material": "Material  :  Iron",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "468/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row75-image17.jpeg"
+    },
+    {
+      "excel_row": 79,
+      "sr": 19,
+      "name": "Items : Table Lamp",
+      "size": "Size    :  5\" x 5\" x 12\"",
+      "material": "Material  :  Iron & Fabric",
+      "electric": "Electric info  :   E-27 Holder with 2 mtr wire with plug",
+      "price": "340/inr + GST",
+      "paking": "5 ply corrugated Innere box Packing",
+      "image": "/list-images/list3-row79-image18.jpeg"
+    }
+  ],
+  "list4.xlsx": [
+    {
+      "excel_row": 2,
+      "sr": 1,
+      "name": "Table Lamp",
+      "size": "21.6 cm, 21.6 cm, 49.5 cm",
+      "price": "450/",
+      "image": "/list-images/list4-row2-image1.jpeg"
+    },
+    {
+      "excel_row": 3,
+      "sr": 2,
+      "name": "Table Lamp",
+      "size": "19.5 Inch, 8.5 Inch",
+      "price": "450/",
+      "image": "/list-images/list4-row3-image2.jpeg"
+    },
+    {
+      "excel_row": 4,
+      "sr": 3,
+      "name": "Table Lamp",
+      "size": "12 Inch, 12 Inch, 25 Inch",
+      "price": "500/",
+      "image": "/list-images/list4-row4-image3.jpeg"
+    },
+    {
+      "excel_row": 5,
+      "sr": 4,
+      "name": "Table Lamp",
+      "size": "10 Inch, 10 Inch, 16 Inch",
+      "price": "410/",
+      "image": "/list-images/list4-row5-image4.jpeg"
+    },
+    {
+      "excel_row": 6,
+      "sr": 5,
+      "name": "Table Lamp",
+      "size": "25. 5 Inch, 18 Inch",
+      "price": "1140/",
+      "image": "/list-images/list4-row6-image5.jpeg"
+    },
+    {
+      "excel_row": 7,
+      "sr": 6,
+      "name": "Table Lamp",
+      "size": "7 Inch, 7 Inch, 25 Inch",
+      "price": "1480/",
+      "image": "/list-images/list4-row7-image6.jpeg"
+    },
+    {
+      "excel_row": 8,
+      "sr": 7,
+      "name": "Table Lamp",
+      "size": "20 cm, 20 cm, 40 cm",
+      "price": "430/",
+      "image": "/list-images/list4-row8-image7.jpeg"
+    },
+    {
+      "excel_row": 9,
+      "sr": 8,
+      "name": "Table Lamp",
+      "size": "15 cm, 15 cm, 30 cm",
+      "price": "400/",
+      "image": "/list-images/list4-row9-image8.jpeg"
+    },
+    {
+      "excel_row": 10,
+      "sr": 9,
+      "name": "Table Lamp",
+      "size": "20 cm, 20 cm, 25 cm",
+      "price": "460/",
+      "image": "/list-images/list4-row10-image9.jpeg"
+    },
+    {
+      "excel_row": 11,
+      "sr": 10,
+      "name": "Table Lamp",
+      "size": "25 cm, 25 cm, 45 cm",
+      "price": "470/",
+      "image": "/list-images/list4-row11-image10.jpeg"
+    },
+    {
+      "excel_row": 12,
+      "sr": 11,
+      "name": "Table Lamp",
+      "size": "15 cm, 15 cm, 30 cm",
+      "price": "380/",
+      "image": "/list-images/list4-row12-image11.jpeg"
+    },
+    {
+      "excel_row": 13,
+      "sr": 12,
+      "name": "Table Lamp",
+      "size": "15 cm, 15 cm, 30 cm",
+      "price": "400/",
+      "image": "/list-images/list4-row13-image12.jpeg"
+    },
+    {
+      "excel_row": 14,
+      "sr": 13,
+      "name": "Table Lamp",
+      "size": "25 cm, 25 cm, 40 cm",
+      "price": "900/",
+      "image": "/list-images/list4-row14-image13.jpeg"
+    },
+    {
+      "excel_row": 15,
+      "sr": 14,
+      "name": "Table Lamp",
+      "size": "15 cm, 15 cm, 28 cm",
+      "price": "350/",
+      "image": "/list-images/list4-row15-image14.jpeg"
+    },
+    {
+      "excel_row": 16,
+      "sr": 15,
+      "name": "Table Lamp",
+      "size": "15 cm, 15 cm, 28 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row16-image15.jpeg"
+    },
+    {
+      "excel_row": 17,
+      "sr": 16,
+      "name": "Table Lamp",
+      "size": "13 cm, 13 cm, 27 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row17-image16.jpeg"
+    },
+    {
+      "excel_row": 18,
+      "sr": 17,
+      "name": "Table Lamp",
+      "size": "13 cm, 13 cm, 27 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row18-image17.jpeg"
+    },
+    {
+      "excel_row": 19,
+      "sr": 18,
+      "name": "Table Lamp",
+      "size": "16 cm , 16 cm 29 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row19-image18.jpeg"
+    },
+    {
+      "excel_row": 20,
+      "sr": 19,
+      "name": "Table Lamp",
+      "size": "15 cm, 15 cm, 30 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row20-image19.jpeg"
+    },
+    {
+      "excel_row": 21,
+      "sr": 20,
+      "name": "Table Lamp",
+      "size": "14 cm, 14 cm, 32 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row21-image20.jpeg"
+    },
+    {
+      "excel_row": 22,
+      "sr": 21,
+      "name": "Table Lamp",
+      "size": "15 cm, 15 cm, 34 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row22-image21.jpeg"
+    },
+    {
+      "excel_row": 23,
+      "sr": 22,
+      "name": "Table Lamp",
+      "size": "17 cm, 17 cm, 28 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row23-image22.jpeg"
+    },
+    {
+      "excel_row": 24,
+      "sr": 23,
+      "name": "Table Lamp",
+      "size": "13 cm, 13 cm, 29 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row24-image23.jpeg"
+    },
+    {
+      "excel_row": 25,
+      "sr": 24,
+      "name": "Table Lamp",
+      "size": "14 cm, 14 cm, 32 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row25-image24.jpeg"
+    },
+    {
+      "excel_row": 26,
+      "sr": 25,
+      "name": "Table Lamp",
+      "size": "14 cm, 14 cm, 29 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row26-image25.jpeg"
+    },
+    {
+      "excel_row": 27,
+      "sr": 26,
+      "name": "Table Lamp",
+      "size": "20 cm, 20 cm, 21 cm",
+      "price": "350/",
+      "image": "/list-images/list4-row27-image26.jpeg"
+    },
+    {
+      "excel_row": 28,
+      "sr": 27,
+      "name": "Table Lamp",
+      "size": "23 cm, 23 cm, 38 cm",
+      "price": "490/",
+      "image": "/list-images/list4-row28-image27.jpeg"
+    },
+    {
+      "excel_row": 29,
+      "sr": 28,
+      "name": "Table Lamp",
+      "size": "23 cm, 23 cm, 38 cm",
+      "price": "490/",
+      "image": "/list-images/list4-row29-image28.jpeg"
+    },
+    {
+      "excel_row": 30,
+      "sr": 29,
+      "name": "Table Lamp",
+      "size": "25 cm, 25 cm, 32 cm",
+      "price": "520/",
+      "image": "/list-images/list4-row30-image29.jpeg"
+    },
+    {
+      "excel_row": 31,
+      "sr": 30,
+      "name": "Table Lamp",
+      "size": "21 cm, 21 cm, 27 cm",
+      "price": "380/",
+      "image": "/list-images/list4-row31-image30.jpeg"
+    },
+    {
+      "excel_row": 32,
+      "sr": 31,
+      "name": "Table Lamp",
+      "size": "21 cm, 21 cm, 40 cm",
+      "price": "580/",
+      "image": "/list-images/list4-row32-image31.jpeg"
+    },
+    {
+      "excel_row": 33,
+      "sr": 32,
+      "name": "Table Lamp",
+      "size": "26 cm, 29 cm, 33 cm",
+      "price": "580/",
+      "image": "/list-images/list4-row33-image32.jpeg"
+    },
+    {
+      "excel_row": 34,
+      "sr": 33,
+      "name": "Table Lamp",
+      "size": "23 cm, 23 cm, 31 cm",
+      "price": "580/",
+      "image": "/list-images/list4-row34-image33.jpeg"
+    },
+    {
+      "excel_row": 35,
+      "sr": 34,
+      "name": "Table Lamp",
+      "size": "29 cm, 29 cm, 32 cm",
+      "price": "570/",
+      "image": "/list-images/list4-row35-image34.jpeg"
+    },
+    {
+      "excel_row": 36,
+      "sr": 35,
+      "name": "Table Lamp",
+      "size": "23 cm, 23 cm, 42 cm",
+      "price": "590",
+      "image": "/list-images/list4-row36-image35.jpeg"
+    },
+    {
+      "excel_row": 37,
+      "sr": 36,
+      "name": "Table Lamp",
+      "size": "19 cm, 19 cm, 29 cm",
+      "price": "390/",
+      "image": "/list-images/list4-row37-image36.jpeg"
+    },
+    {
+      "excel_row": 38,
+      "sr": 37,
+      "name": "Table Lamp",
+      "size": "23 cm, 23 cm, 32 cm",
+      "price": "550/",
+      "image": "/list-images/list4-row38-image37.jpeg"
+    },
+    {
+      "excel_row": 39,
+      "sr": 38,
+      "name": "Table Lamp",
+      "size": "23 cm, 23 cm, 42 cm",
+      "price": "590/",
+      "image": "/list-images/list4-row39-image38.jpeg"
+    },
+    {
+      "excel_row": 40,
+      "sr": 39,
+      "name": "Table Lamp",
+      "size": "33 cm, 33 cm, 38 cm",
+      "price": "750/",
+      "image": "/list-images/list4-row40-image39.jpeg"
+    },
+    {
+      "excel_row": 41,
+      "sr": 40,
+      "name": "Table Lamp",
+      "size": "21 cm, 21 cm, 32 cm",
+      "price": "450/",
+      "image": "/list-images/list4-row41-image40.jpeg"
+    },
+    {
+      "excel_row": 42,
+      "sr": 41,
+      "name": "Table Lamp",
+      "size": "20 cm, 20 cm, 35 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row42-image42.jpeg"
+    },
+    {
+      "excel_row": 43,
+      "sr": 42,
+      "name": "Table Lamp",
+      "size": "20 cm, 20 cm, 33 cm",
+      "price": "590/",
+      "image": "/list-images/list4-row43-image43.jpeg"
+    },
+    {
+      "excel_row": 44,
+      "sr": 43,
+      "name": "Table Lamp",
+      "size": "30 cm, 30 cm, 32 cm",
+      "price": "600/",
+      "image": "/list-images/list4-row44-image41.jpeg"
+    },
+    {
+      "excel_row": 45,
+      "sr": 44,
+      "name": "Table Lamp",
+      "size": "10 Inch",
+      "price": "490)",
+      "image": "/list-images/list4-row45-image44.jpeg"
+    },
+    {
+      "excel_row": 46,
+      "sr": 45,
+      "name": "Table Lamp",
+      "size": "10 Inch",
+      "price": "490/",
+      "image": "/list-images/list4-row46-image45.jpeg"
+    },
+    {
+      "excel_row": 47,
+      "sr": 46,
+      "name": "Table Lamp",
+      "size": "10 Inch",
+      "price": "490/",
+      "image": "/list-images/list4-row47-image46.jpeg"
+    },
+    {
+      "excel_row": 48,
+      "sr": 47,
+      "name": "Table Lamp",
+      "size": "10 Inch",
+      "price": "460/",
+      "image": "/list-images/list4-row48-image47.jpeg"
+    },
+    {
+      "excel_row": 49,
+      "sr": 48,
+      "name": "Table Lamp",
+      "size": "11 Inch",
+      "price": "490/",
+      "image": "/list-images/list4-row49-image48.jpeg"
+    },
+    {
+      "excel_row": 50,
+      "sr": 49,
+      "name": "Table Lamp",
+      "size": "8 Inch, 8 Inch, 12 Inch",
+      "price": "490/",
+      "image": "/list-images/list4-row50-image49.jpeg"
+    },
+    {
+      "excel_row": 51,
+      "sr": 50,
+      "name": "Table Lamp",
+      "size": "8 Inch, 8 Inch, 12 Inch",
+      "price": "490/",
+      "image": "/list-images/list4-row51-image50.jpeg"
+    },
+    {
+      "excel_row": 52,
+      "sr": 51,
+      "name": "Table Lamp",
+      "size": "8 Inch, 8 Inch, 12 Inch",
+      "price": "490/",
+      "image": "/list-images/list4-row52-image51.jpeg"
+    },
+    {
+      "excel_row": 53,
+      "sr": 52,
+      "name": "Table Lamp",
+      "size": "10 Inch, 10 Inch, 16 Inch",
+      "price": "1290",
+      "image": "/list-images/list4-row53-image52.jpeg"
+    },
+    {
+      "excel_row": 54,
+      "sr": 53,
+      "name": "Table Lamp",
+      "size": "10 Inch, 10 Inch, 14 Inch",
+      "price": "780/",
+      "image": "/list-images/list4-row54-image53.jpeg"
+    },
+    {
+      "excel_row": 55,
+      "sr": 54,
+      "name": "Table Lamp",
+      "size": "10 Inch, 10 Inch, 10 Inch",
+      "price": "900/",
+      "image": "/list-images/list4-row55-image54.jpeg"
+    },
+    {
+      "excel_row": 56,
+      "sr": 55,
+      "name": "Table Lamp",
+      "size": "10 Inch, 10 Inch, 16 Inch",
+      "price": "980/",
+      "image": "/list-images/list4-row56-image55.jpeg"
+    },
+    {
+      "excel_row": 57,
+      "sr": 56,
+      "name": "Table Lamp",
+      "size": "10 Inch, 10 Inch, 16 Inch",
+      "price": "900/",
+      "image": "/list-images/list4-row57-image56.jpeg"
+    },
+    {
+      "excel_row": 58,
+      "sr": 57,
+      "name": "Table Lamp",
+      "size": "10 Inch, 10 Inch, 18 Inch",
+      "price": "1490/",
+      "image": "/list-images/list4-row58-image57.jpeg"
+    },
+    {
+      "excel_row": 59,
+      "sr": 58,
+      "name": "Table Lamp",
+      "size": "8.1 Inch, 5.6 Inch, 20.7 Inch",
+      "price": "900/",
+      "image": "/list-images/list4-row59-image58.jpeg"
+    },
+    {
+      "excel_row": 60,
+      "sr": 59,
+      "name": "Table Lamp",
+      "size": "16.2 Inch",
+      "price": "800/",
+      "image": "/list-images/list4-row60-image59.jpeg"
+    },
+    {
+      "excel_row": 61,
+      "sr": 60,
+      "name": "Table Lamp",
+      "size": "15.2 inch",
+      "price": "490/",
+      "image": "/list-images/list4-row61-image60.jpeg"
+    },
+    {
+      "excel_row": 62,
+      "sr": 61,
+      "name": "Table Lamp",
+      "size": "16 Inch",
+      "price": "520/",
+      "image": "/list-images/list4-row62-image61.jpeg"
+    },
+    {
+      "excel_row": 63,
+      "sr": 62,
+      "name": "Table Lamp",
+      "size": "14.1 inch",
+      "price": "600/",
+      "image": "/list-images/list4-row63-image62.jpeg"
+    },
+    {
+      "excel_row": 64,
+      "sr": 63,
+      "name": "Table Lamp",
+      "size": "9.4 Inch, 9.4 Inch, 21.5 Inch",
+      "price": "990/",
+      "image": "/list-images/list4-row64-image63.jpeg"
+    },
+    {
+      "excel_row": 65,
+      "sr": 64,
+      "name": "Table Lamp",
+      "size": "10.2 Inch, 3.9 Inch, 13.4 Inch",
+      "price": "650/",
+      "image": "/list-images/list4-row65-image64.jpeg"
+    },
+    {
+      "excel_row": 66,
+      "sr": 65,
+      "name": "Table Lamp",
+      "size": "8.2 Inch, 3.9 Inch, 14.3 Inch",
+      "price": "650/",
+      "image": "/list-images/list4-row66-image65.jpeg"
+    },
+    {
+      "excel_row": 67,
+      "sr": 66,
+      "name": "Table Lamp",
+      "size": ".3 Inch, 6.3 Inch, 10.2 Inch",
+      "price": "480/",
+      "image": "/list-images/list4-row67-image66.jpeg"
+    },
+    {
+      "excel_row": 68,
+      "sr": 67,
+      "name": "Table Lamp",
+      "size": "5.0 Inch, 5.0 Inch, 11.9 Inch",
+      "price": "600/",
+      "image": "/list-images/list4-row68-image67.jpeg"
+    },
+    {
+      "excel_row": 69,
+      "sr": 68,
+      "name": "Table Lamp",
+      "size": "5.7 Inch, 5.7 Inch, 12.8 Inch",
+      "price": "600/",
+      "image": "/list-images/list4-row69-image68.jpeg"
+    },
+    {
+      "excel_row": 70,
+      "sr": 69,
+      "name": "Table Lamp",
+      "size": "6.2 Inch, 6.2 Inch, 12.1 Inch",
+      "price": "600/",
+      "image": "/list-images/list4-row70-image69.jpeg"
+    },
+    {
+      "excel_row": 71,
+      "sr": 70,
+      "name": "Table Lamp",
+      "size": "6.2 Inch, 6.2 Inch, 11.6 Inch",
+      "price": "600/",
+      "image": "/list-images/list4-row71-image70.jpeg"
+    }
+  ]
+}

@@ -37,8 +37,8 @@
   --font-mono: var(--font-geist-mono);
 }
 
-/* Smooth */
-html { scroll-behavior: smooth; }
+/* Smooth + prevent horizontal overflow on small screens */
+html { scroll-behavior: smooth; overflow-x: hidden; }
 * { scrollbar-width: thin; scrollbar-color: var(--royal) transparent; }
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-thumb { background: var(--royal); border-radius: 999px; }

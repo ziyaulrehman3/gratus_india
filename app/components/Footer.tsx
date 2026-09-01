@@ -60,7 +60,7 @@ export default function Footer() {
             </div>
 
             <p className="mt-4 max-w-[36ch] text-[13.5px] leading-relaxed text-slate-200/90">
-              Leading manufacturer of premium steel products — pipes, wires, sheets, fasteners. Manufactured to export-quality standards since 1995.
+              Handcrafting warm decorative lighting — Wood Table Lamps, Wall, Floor, Pendant, Moroccan & Rope Hanging Lamps and Planter Stands. Made in Moradabad with warm glow since 1995.
             </p>
 
             <div className="mt-5 flex items-center gap-2">
@@ -70,9 +70,9 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-xs font-bold text-[#091540] shadow-md ring-1 ring-white/20 transition-all duration-300 hover:bg-[#f6f8ff] hover:shadow-lg hover:scale-[1.02]"
               >
-                <span className="flex h-5 w-5 items-center justify-center rounded-full bg-gradient-to-br from-[#1B2CC1] to-[#7692FF] text-white">
-                  <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.7} d="M12 2.2c2.4 0 2.7 0 3.6.05.9.04 1.5.2 1.9.35.4.15.7.35 1 .65.3.3.5.6.65 1 .15.4.31 1 .35 1.9.05.9.05 1.2.05 3.6s0 2.7-.05 3.6c-.04.9-.2 1.5-.35 1.9-.15.4-.35.7-.65 1-.3.3-.6.5-1 .65-.4.15-1 .31-1.9.35-.9.05-1.2.05-3.6.05s-2.7 0-3.6-.05c-.9-.04-1.5-.2-1.9-.35a2.7 2.7 0 01-1-.65c-.3-.3-.5-.6-.65-1-.15-.4-.31-1-.35-1.9C2.2 14.7 2.2 14.4 2.2 12s0-2.7.05-3.6c.04-.9.2-1.5.35-1.9.15-.4.35-.7.65-1 .3-.3.6-.5 1-.65.4-.15 1-.31 1.9-.35C9.3 2.2 9.6 2.2 12 2.2zM12 6.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM12 15a3 3 0 110-6 3 3 0 010 6zm5.5-7.8a1.3 1.3 0 11-2.6 0 1.3 1.3 0 012.6 0z" />
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-tr from-[#feda75] via-[#fa7e1e] via-[#d62976] via-[#962fbf] to-[#4f5bd5] text-white shadow-sm ring-1 ring-black/5 group-hover:scale-110 group-hover:shadow-md transition-all">
+                  <svg className="h-3.5 w-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2.2c3.2 0 3.58 0 4.85.07 1.17.05 1.8.25 2.23.41.5.2.86.44 1.24.82.38.38.62.74.82 1.24.16.43.36 1.06.41 2.23.07 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23a3.9 3.9 0 01-.82 1.24 3.9 3.9 0 01-1.24.82c-.43.16-1.06.36-2.23.41-1.27.07-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.9 3.9 0 01-1.24-.82 3.9 3.9 0 01-.82-1.24c-.16-.43-.36-1.06-.41-2.23C2.2 15.58 2.2 15.2 2.2 12s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.2-.5.44-.86.82-1.24.38-.38.74-.62 1.24-.82.43-.16 1.06-.36 2.23-.41C8.42 2.2 8.8 2.2 12 2.2zm0 1.8c-3.14 0-3.51 0-4.75.07-1.08.05-1.67.23-2.06.38a2.1 2.1 0 00-.78.51 2.1 2.1 0 00-.51.78c-.15.39-.33.98-.38 2.06C4 8.49 4 8.86 4 12s0 3.51.07 4.75c.05 1.08.23 1.67.38 2.06.1.26.25.5.51.78.26.26.5.41.78.51.39.15.98.33 2.06.38 1.24.07 1.61.07 4.75.07s3.51 0 4.75-.07c1.08-.05 1.67-.23 2.06-.38.26-.1.5-.25.78-.51.26-.26.41-.5.51-.78.15-.39.33-.98.38-2.06.07-1.24.07-1.61.07-4.75s0-3.51-.07-4.75c-.05-1.08-.23-1.67-.38-2.06a2.1 2.1 0 00-.51-.78 2.1 2.1 0 00-.78-.51c-.39-.15-.98-.33-2.06-.38C15.51 4 15.14 4 12 4zm0 3.65a4.35 4.35 0 110 8.7 4.35 4.35 0 010-8.7zm0 1.8a2.55 2.55 0 100 5.1 2.55 2.55 0 000-5.1zm5.23-2.9a1.02 1.02 0 110 2.04 1.02 1.02 0 010-2.04z" />
                   </svg>
                 </span>
                 gratus.india
@@ -82,22 +82,26 @@ export default function Footer() {
               </span>
             </div>
 
-            <div className="mt-4 flex gap-2">
-              {[
-                { label: "𝕏", href: "#" },
-                { label: "in", href: "#" },
-                { label: "f", href: "#" },
-              ].map((s) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  aria-label={s.label}
-                  className="group flex h-9 w-9 items-center justify-center rounded-full bg-white/[0.08] text-white ring-1 ring-white/15 backdrop-blur transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:bg-white hover:text-[#091540] hover:-translate-y-0.5 hover:shadow-md hover:ring-white"
-                >
-                  <span className="text-xs font-bold">{s.label}</span>
-                </a>
-              ))}
-              <span className="ml-2 hidden items-center gap-1.5 rounded-full bg-white/10 px-3 py-1 text-[11px] font-medium text-white/70 ring-1 ring-white/10 sm:inline-flex backdrop-blur">
+            <div className="mt-4 flex flex-wrap items-center gap-2">
+              <a
+                href="https://www.indiamart.com/gratus-india"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-2 rounded-full bg-[#e30613] px-4 py-2 text-xs font-bold tracking-wide text-white shadow-md ring-1 ring-white/15 transition-all duration-300 hover:bg-[#c70511] hover:shadow-lg hover:-translate-y-0.5"
+              >
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white text-[#e30613] text-[11px] font-black leading-none shadow-sm">M</span>
+                IndiaMART
+                <svg className="h-3 w-3 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.2} d="M7 17L17 7M17 7h-7m7 0v7" />
+                </svg>
+              </a>
+              <Link
+                href="/products"
+                className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-4 py-2 text-xs font-semibold tracking-wide text-white ring-1 ring-white/15 backdrop-blur transition-all hover:bg-white hover:text-[#091540] hover:shadow-md"
+              >
+                View Catalogue <span aria-hidden>→</span>
+              </Link>
+              <span className="hidden items-center gap-1.5 rounded-full bg-white/10 px-3 py-1 text-[11px] font-medium text-white/70 ring-1 ring-white/10 sm:inline-flex backdrop-blur">
                 <span className="h-1 w-1 rounded-full bg-[#ABD2FA] animate-pulse" /> Crafted with precision
               </span>
             </div>
@@ -116,6 +120,7 @@ export default function Footer() {
                 { href: "/products", label: "Products" },
                 { href: "/contact", label: "Contact" },
                 { href: "/privacy", label: "Privacy Policy" },
+                { href: "/terms", label: "Terms & Conditions" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
@@ -142,7 +147,7 @@ export default function Footer() {
               Products
             </h3>
             <ul className="mt-5 space-y-3 text-sm">
-              {["Steel Pipes & Tubes", "Steel Wire Products", "Steel Sheets & Coils", "Steel Fasteners"].map((p) => (
+              {["Wood Table Lamp", "Pendant Lamp", "Moroccan Hanging Lamp", "Rope Hanging Lamp", "Wall & Hanging Planter Stand", "Floor Lamp"].map((p) => (
                 <li key={p}>
                   <Link href="/products" className="group inline-flex items-center gap-2 text-white/75 transition-all duration-300 hover:text-white hover:translate-x-1">
                     <span className="h-1.5 w-1.5 rounded-full bg-white/40 transition-all duration-300 group-hover:bg-[#ABD2FA] group-hover:scale-125 group-hover:shadow-[0_0_8px_rgba(171,210,250,0.6)]" />
@@ -197,13 +202,13 @@ export default function Footer() {
                   <span className="mt-1 block text-xs font-normal text-white/60">Mon–Sat • 9am – 7pm IST</span>
                 </span>
               </li>
-              <li className="flex items-start gap-3 text-white/85">
-                <span className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-white/[0.08] text-white ring-1 ring-white/10">
+              <li className="flex items-center gap-3 text-white/85">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-white/[0.08] text-white ring-1 ring-white/10">
                   <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </span>
-                <span className="text-xs tracking-wide text-white/80">GST: <span className="font-mono font-bold tracking-wider text-white">09BBZPA4353F2ZE</span></span>
+                <span className="flex items-center text-xs tracking-wide text-white/80 leading-none">GST: <span className="ml-1 font-mono font-bold tracking-wider text-white">09BBZPA4353F2ZE</span></span>
               </li>
             </ul>
 
@@ -230,9 +235,9 @@ export default function Footer() {
             <div className="flex items-center gap-3 text-xs">
               <Link href="/privacy" className="rounded-full bg-white px-3 py-1.5 font-bold text-[#091540] shadow-sm ring-1 ring-white/20 transition-all hover:bg-[#f6f8ff] hover:shadow-md">Privacy Policy</Link>
               <span className="hidden h-3 w-px bg-white/15 sm:block" />
-              <a href="#" className="hidden text-white/60 transition-colors hover:text-white sm:inline">Terms</a>
+              <Link href="/terms" className="hidden text-white/60 transition-colors hover:text-white sm:inline">Terms</Link>
               <span className="hidden text-white/15 sm:inline">•</span>
-              <a href="#" className="hidden text-white/60 transition-colors hover:text-white sm:inline">Sitemap</a>
+              <Link href="/sitemap.xml" className="hidden text-white/60 transition-colors hover:text-white sm:inline">Sitemap</Link>
               <span className="ml-1 inline-flex items-center gap-1 rounded-full bg-emerald-500/15 px-2.5 py-1 text-[11px] font-semibold text-emerald-300 ring-1 ring-emerald-500/20">
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" /> Live
               </span>

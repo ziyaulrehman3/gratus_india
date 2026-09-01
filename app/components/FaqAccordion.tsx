@@ -4,24 +4,24 @@ import { useState } from "react";
 
 const faqs = [
   {
-    q: "What products does Gratus India manufacture?",
-    a: "We manufacture steel pipes and tubes, wire products, sheets and coils, and fasteners — built to export-quality standards with in-house lab verification on every batch.",
+    q: "What products does Gratus India craft?",
+    a: "We handcraft decorative lighting and home decor — Wood Table Lamps, Wall Lamps, Floor Lamps, Pendant Lamps, Moroccan Hanging Lamps, Rope Hanging Lamps, and Wall & Hanging Planter Stands with Pots. Each piece is handcrafted in Moradabad to export-quality finish, wired for safe, warm glow.",
   },
   {
-    q: "Where is your manufacturing facility located?",
-    a: "Our plant is at Rampur Doraha, Kashipur Road, Moradabad (Uttar Pradesh). We ship across India and support export packing and documentation.",
+    q: "Where is your workshop located?",
+    a: "Our workshop is at Rampur Doraha, Kashipur Road, Moradabad (Uttar Pradesh). We supply across India and support export packing, wiring compliance and documentation.",
   },
   {
-    q: "Can you manufacture to custom specifications?",
-    a: "Yes. Share grade, size, coating, quantity and destination. Our team confirms feasibility, lead time and a detailed quotation — usually within one business day.",
+    q: "Can you make lamps to custom finish or size?",
+    a: "Yes. Share wood finish, shade material/color, dimensions, wiring type, quantity and destination. We confirm feasibility, lead time and a detailed quotation — usually within one business day.",
   },
   {
     q: "How do you ensure quality and on-time delivery?",
-    a: "Automated lines, in-house testing, and documented QC at each stage. We currently hold a 99.2% on-time dispatch record with quality documents ready for every order.",
+    a: "Hand-assembly, finish-check, electrical safety testing and QC at each stage. We hold a 99.2% on-time dispatch record with careful packing for every order.",
   },
   {
     q: "What is the typical order process?",
-    a: "Inquiry → spec review → quotation → sample (if needed) → PI / contract → production → inspection → dispatch. You get updates at each step.",
+    a: "Inquiry → design/finish review → quotation → sample (if needed) → PI / contract → handcrafting → inspection & testing → dispatch. You get updates at each step.",
   },
 ];
 

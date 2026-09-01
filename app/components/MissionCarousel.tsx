@@ -5,21 +5,21 @@ import { useState } from "react";
 const slides = [
   {
     title: "Our Mission",
-    body: "To be the most trusted steel manufacturing partner — delivering export-quality pipes, wires, sheets and fasteners on spec, on time, every time.",
+    body: "To be the most trusted lighting partner — handcrafting Wood Table Lamps, Wall Lamps, Floor Lamps, Pendant, Moroccan & Rope Hanging Lamps that bring warm, ambient light to homes, cafés and hotels — on spec, on time, every time.",
     image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&q=80&auto=format&fit=crop",
+      "/website-images/photo-1519710164239-da123dc03ef4.jpg",
   },
   {
     title: "Our Vision",
-    body: "To set the benchmark in precision steel manufacturing through continuous innovation, responsible processes, and unwavering quality from Moradabad to the world.",
+    body: "To set the benchmark in handcrafted decorative lighting through thoughtful design, sustainable wood & metal craft, and consistent finish — from Moradabad to the world.",
     image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80&auto=format&fit=crop",
+      "/website-images/photo-1586023492125-27b2c045efd7.jpg",
   },
   {
     title: "Our Promise",
-    body: "Lab-tested batches, transparent specs, and a 500+ skilled team standing behind every dispatch — consistency you can plan around.",
+    body: "Hand-finished wood, quality-checked wiring and shade, and a skilled team behind every lamp — consistent warm glow and build you can count on, with our Wall & Hanging Planter Stands adding green warmth to any space.",
     image:
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1600&q=80&auto=format&fit=crop",
+      "/website-images/photo-1524758631624-e2822e304c36.jpg",
   },
 ];
 
@@ -30,20 +30,20 @@ export default function MissionCarousel() {
   const next = () => setIndex((i) => (i === slides.length - 1 ? 0 : i + 1));
 
   return (
-    <div className="relative overflow-hidden rounded-[28px] sm:rounded-[36px] aspect-[16/8.4] min-h-[280px] shadow-[0_24px_60px_rgba(9,21,64,0.14)]">
+    <div className="relative w-full overflow-hidden rounded-[28px] sm:rounded-[36px] aspect-[16/9] sm:aspect-[16/9] lg:aspect-[16/8.4] min-h-[320px] sm:min-h-[360px] lg:min-h-[380px] shadow-[0_24px_60px_rgba(9,21,64,0.14)]">
       {slides.map((s, i) => (
         <img
           key={s.title}
           src={s.image}
           alt=""
-          className={`absolute inset-0 h-full w-full object-cover transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+          className={`absolute inset-0 h-full w-full object-cover object-center transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] ${
             i === index ? "opacity-100 scale-100" : "opacity-0 scale-105"
           }`}
         />
       ))}
       <div className="absolute inset-0 bg-gradient-to-t from-[#091540]/80 via-[#091540]/25 to-transparent" />
 
-      <div className="absolute inset-0 flex items-end justify-between gap-6 p-6 sm:p-10">
+      <div className="absolute inset-0 flex flex-col justify-end gap-3 p-5 sm:flex-row sm:items-end sm:justify-between sm:gap-6 sm:p-8 lg:p-10">
         <div key={slide.title} className="max-w-xl animate-fadeInUp">
           <h3 className="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">{slide.title}</h3>
           <p className="mt-3 text-sm leading-relaxed text-white/85 sm:text-[15px]">{slide.body}</p>

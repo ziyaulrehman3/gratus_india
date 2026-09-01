@@ -6,11 +6,13 @@ import TiltCard from "./components/TiltCard";
 import Marquee from "./components/Marquee";
 import TextReveal from "./components/TextReveal";
 import FeedbackCarousel from "./components/FeedbackCarousel";
+import { generatedProducts } from "./products/generated";
+import HomeProductGrid from "./components/HomeProductGrid";
 
 export const metadata: Metadata = {
   title: "Home",
   description:
-    "Gratus India - Leading manufacturer and exporter of premium steel products, wire items, and industrial solutions.",
+    "Gratus India - Handcrafting warm decorative lighting in Moradabad since 1995. Wood Table Lamps, Wall, Floor, Pendant, Moroccan & Rope Hanging Lamps and Planter Stands for homes & hospitality.",
 };
 
 const stats = [
@@ -22,41 +24,46 @@ const stats = [
 
 const features = [
   {
-    title: "Quality Manufacturing",
-    description: "State-of-the-art facilities ensuring the highest quality standards through rigorous testing.",
+    title: "Hand-finished Craftsmanship",
+    description: "Seasoned wood, jaali & fabric shades hand-finished for even texture and a warm, consistent glow — Made in Moradabad since 1995.",
     icon: (
       <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
     ),
   },
   {
-    title: "Export-Quality Manufacturing",
-    description: "Manufactured to export-quality standards with precision engineering, reliable timelines and consistent finish.",
+    title: "Warm Glow & Safety",
+    description: "Soft fabric shades with E-27 holder, 3m wire, ON/OFF switch & 2-pin plug — wiring & finish checked for safe, warm light.",
     icon: (
-      <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3a4 4 0 014 4 4 4 0 01-4 4 4 4 0 01-4-4 4 4 0 014-4zm0 10a6 6 0 00-6 6v2h12v-2a6 6 0 00-6-6z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 21h6" /></svg>
     ),
   },
   {
-    title: "Custom Solutions",
-    description: "Tailored steel products designed and manufactured to meet your specific industrial requirements.",
+    title: "Custom Shades & Sizes",
+    description: "Tailored to your spec — size, wood finish, shade fabric & qty. Share your moodboard, we’ll craft it and quote in 24h.",
     icon: (
-      <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+      <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V8a2 2 0 012-2h10a2 2 0 012 2v1" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21h10a2 2 0 002-2v-2a2 2 0 00-2-2H9a2 2 0 00-2 2v2a2 2 0 002 2z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 7l2.5 2.5L12 12 9.5 9.5 12 7z" /></svg>
     ),
   },
   {
-    title: "Competitive Pricing",
-    description: "Direct manufacturer advantage with competitive pricing without compromising on quality or timelines.",
+    title: "Factory-Direct Value",
+    description: "Direct Moradabad workshop advantage — fair pricing, secure packing and on-time dispatch without compromising glow.",
     icon: (
-      <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 12h10" /></svg>
     ),
   },
 ];
 
-const products = [
-  { id: "01", name: "Steel Pipes & Tubes", description: "Seamless and ERW pipes for construction, oil & gas, and industrial applications.", image: "/globe.svg" },
-  { id: "02", name: "Steel Wire Products", description: "Galvanized wire, binding wire, barbed wire, and custom wire solutions.", image: "/file.svg" },
-  { id: "03", name: "Steel Sheets & Coils", description: "Hot-rolled, cold-rolled, and galvanized steel sheets and coils.", image: "/window.svg" },
-  { id: "04", name: "Steel Fasteners", description: "High-strength bolts, nuts, screws, and custom fastener solutions.", image: "/file.svg" },
-];
+const products = generatedProducts.slice(-4).reverse().map((p, idx) => ({
+  id: String(idx + 1).padStart(2, "0"),
+  sr: p.sr,
+  name: p.name,
+  variant: p.variant,
+  description: p.description,
+  image: p.image,
+  specs: p.specs,
+  price: p.price,
+  moq: p.moq,
+}));
 
 export default function Home() {
   return (
@@ -80,16 +87,16 @@ export default function Home() {
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
                   <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
                 </span>
-                Trusted by 500+ clients • 25+ Years Manufacturing
+                Trusted by 500+ homes • 25+ Years Crafted in Moradabad
               </div>
 
               <h1 className="animate-fadeInUp delay-100 mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-[56px] leading-[0.95]">
-                <span className="block text-secondary">Premium Steel</span>
-                <span className="block bg-gradient-to-r from-[#1B2CC1] via-[#4158f5] to-[#7692FF] bg-clip-text text-transparent pb-1">Manufacturing Solutions</span>
+                <span className="block text-secondary">Warm Handcrafted</span>
+                <span className="block bg-gradient-to-r from-[#1B2CC1] via-[#4158f5] to-[#7692FF] bg-clip-text text-transparent pb-1">Lighting Solutions</span>
               </h1>
 
               <p className="animate-fadeInUp delay-200 mt-5 max-w-xl text-[17px] leading-relaxed text-gray-600">
-                Gratus India is a trusted name in steel manufacturing, delivering high-quality steel products and wire solutions built to export-quality standards for over 25 years.
+                Gratus India handcrafts warm decorative lighting — <span className="font-semibold text-secondary">Wood Table Lamps</span>, Wall & Floor Lamps, Pendant, Moroccan & Rope Hanging Lamps and Planter Stands — made in Moradabad since 1995 for homes, cafés & hospitality.
               </p>
 
               <div className="animate-fadeInUp delay-300 mt-8 flex flex-col gap-3.5 sm:flex-row">
@@ -104,8 +111,10 @@ export default function Home() {
                   href="/contact"
                   className="group inline-flex items-center justify-center rounded-full border border-gray-200 bg-white px-7 py-3.5 text-[15px] font-semibold text-secondary shadow-sm ring-1 ring-black/5 transition-all duration-300 hover:bg-secondary hover:text-white hover:border-secondary hover:-translate-y-0.5"
                 >
-                  <span className="mr-2 flex h-7 w-7 items-center justify-center rounded-full bg-secondary text-white group-hover:bg-white group-hover:text-secondary transition">
-                    <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132a1 1 0 00-1.506 1.13l1.11 3.57-1.11 3.57a1 1 0 001.506 1.13l3.197-2.132a1 1 0 000-1.668z" /></svg>
+                  <span className="mr-2 flex h-8 w-8 items-center justify-center rounded-full bg-secondary text-white shadow-sm ring-1 ring-black/5 group-hover:bg-white group-hover:text-secondary group-hover:shadow-md transition-all">
+                    <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M8 5.14v14l11-7-11-7z" />
+                    </svg>
                   </span>
                   Get a Quote
                 </Link>
@@ -113,8 +122,14 @@ export default function Home() {
 
               <div className="animate-fadeIn delay-500 mt-8 flex items-center gap-6 border-t border-gray-200 pt-6">
                 <div className="flex -space-x-2">
-                  {[1,2,3,4].map((i)=>(
-                    <span key={i} className="flex h-8 w-8 items-center justify-center rounded-full bg-secondary text-[11px] font-bold text-white ring-2 ring-white shadow-sm">{String.fromCharCode(64+i)}</span>
+                  {[11,12,13,14].map((id) => (
+                    <img
+                      key={id}
+                      src={`/website-images/pravatar-${id}.jpg`}
+                      alt="Client"
+                      className="h-8 w-8 rounded-full object-cover ring-2 ring-white shadow-sm"
+                      loading="lazy"
+                    />
                   ))}
                 </div>
                 <div className="text-sm text-gray-600">
@@ -124,26 +139,32 @@ export default function Home() {
                   <span className="text-xs text-gray-500">from 1,200+ reviews</span>
                 </div>
                 <div className="hidden sm:flex items-center gap-2 text-xs font-medium text-gray-600 ml-auto">
-                  <span className="h-px w-6 bg-primary/20" /> Export-Quality • On-time Delivery
+                  <span className="h-px w-6 bg-primary/20" /> Hand-finished • Warm Glow
                 </div>
               </div>
             </div>
 
-            {/* Hero visual */}
-            <div className="relative hidden lg:block">
-              <div className="animate-float-slow relative mx-auto aspect-[4.4/3.4] w-full max-w-[560px]">
+            {/* Hero visual — now visible on small screens */}
+            <div className="relative mt-8 lg:mt-0">
+              <div className="animate-float-slow relative mx-auto aspect-[4.4/3.4] w-full max-w-[420px] sm:max-w-[480px] lg:max-w-[560px]">
                 {/* main card */}
                 <div className="absolute inset-0 rounded-[28px] bg-white p-3 shadow-[0_32px_80px_rgba(13,38,80,0.35)]">
                   <div className="flex h-full flex-col overflow-hidden rounded-[20px] bg-gradient-to-br from-slate-50 to-white">
                     <div className="relative flex-1 overflow-hidden bg-slate-900">
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary/40 via-blue-600/20 to-slate-900" />
+                      <img
+                        src="/website-images/photo-1524758631624-e2822e304c36.jpg"
+                        alt="Gratus lamp collection warm glow"
+                        className="absolute inset-0 h-full w-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-primary/20" />
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary/30 via-transparent to-slate-900/60" />
                       <div className="absolute inset-0 grid-pattern opacity-10" />
                       <div className="absolute bottom-0 left-0 right-0 p-5">
                         <div className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur px-2.5 py-1 text-[11px] font-semibold text-white ring-1 ring-white/15">
                           <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" /> Live Production • Moradabad (UP)
                         </div>
-                        <div className="mt-3 text-xl font-bold text-white">Steel Precision, Global Trust</div>
-                        <div className="text-xs text-white/70">Capacity 100K+ tons • 500+ Team</div>
+                        <div className="mt-3 text-xl font-bold text-white drop-shadow">Warm Glow, Handcrafted Trust</div>
+                        <div className="text-xs text-white/80">5 Signature Collections • 500+ Clients</div>
                       </div>
                       {/* floating icon */}
                       <div className="absolute right-4 top-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-primary shadow-lg animate-float">
@@ -164,14 +185,28 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                {/* floating badges */}
-                <div className="animate-float absolute -left-8 top-10 rounded-2xl bg-white px-4 py-3 shadow-xl ring-1 ring-black/5">
-                  <div className="text-xs font-bold text-secondary">On-Time Delivery</div>
-                  <div className="text-[11px] text-emerald-600 font-semibold">99.2% • 2024</div>
+                {/* floating badges — now with images, visible on mobile */}
+                <div className="animate-float absolute left-1 sm:-left-8 top-2 sm:top-10 flex items-center gap-2 sm:gap-3 rounded-2xl bg-white px-3 py-2.5 sm:px-3 sm:py-3 shadow-xl ring-1 ring-black/5">
+                  <img
+                    src="/website-images/photo-1507473885765-e6ed057f782c.jpg"
+                    alt="Hand-finished wood table lamp"
+                    className="h-10 w-10 rounded-xl object-cover shadow-sm ring-1 ring-black/5"
+                  />
+                  <div>
+                    <div className="text-xs font-bold text-secondary">Hand-finished</div>
+                    <div className="text-[11px] text-emerald-600 font-semibold">Since 1995 • Moradabad</div>
+                  </div>
                 </div>
-                <div className="animate-float-slow absolute -right-6 bottom-6 rounded-2xl bg-secondary px-4 py-3 shadow-xl text-white">
-                  <div className="text-xs font-bold">Export Quality</div>
-                  <div className="text-[11px] text-primary-light">Lab Tested • Certified</div>
+                <div className="animate-float-slow absolute right-1 sm:-right-6 bottom-2 sm:bottom-6 flex items-center gap-2 sm:gap-3 rounded-2xl bg-secondary px-3 py-2.5 sm:px-3 sm:py-3 shadow-xl text-white ring-1 ring-white/10">
+                  <img
+                    src="/website-images/photo-1513506003901-1e6a229e2d15.jpg"
+                    alt="Warm glow pendant lamp"
+                    className="h-10 w-10 rounded-xl object-cover shadow-sm ring-1 ring-white/20"
+                  />
+                  <div>
+                    <div className="text-xs font-bold">Warm Glow</div>
+                    <div className="text-[11px] text-primary-light">Safe Wiring • Handcrafted</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -217,17 +252,18 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Reveal>
             <div className="mx-auto max-w-3xl text-center">
-              <div className="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1 text-xs font-bold tracking-widest text-primary ring-1 ring-gray-200 shadow-sm">
-                <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
+              <div className="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-xs font-bold tracking-widest text-primary ring-1 ring-gray-200 shadow-sm">
+                <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.5)]" />
                 WHY GRATUS INDIA
+                <span className="hidden sm:inline-flex items-center gap-1 rounded-full bg-primary/10 px-2 py-0.5 text-[10px]">HAND-FINISHED • WARM GLOW</span>
               </div>
-              <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-secondary sm:text-4xl lg:text-[38px]">
+              <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-secondary sm:text-4xl lg:text-[38px] leading-[0.95]">
                 <TextReveal text="Why Choose Gratus India ?" />
               </h2>
-              <p className="mx-auto mt-4 max-w-2xl text-[15.5px] leading-relaxed text-gray-600">
-                Trusted by industries for quality steel solutions and precision manufacturing — built to export-quality standards.
+              <p className="mx-auto mt-4 max-w-2xl text-[16px] leading-relaxed text-gray-600">
+                Trusted by <span className="font-semibold text-secondary">homes, cafés & hospitality</span> for warm decorative lighting — <span className="font-medium text-primary">hand-finished in Moradabad since 1995</span>.
               </p>
-              <div className="section-divider mx-auto mt-6 w-28" />
+              <div className="mx-auto mt-6 h-1 w-24 rounded-full bg-gradient-to-r from-primary via-[#7692FF] to-[#ABD2FA]" />
             </div>
           </Reveal>
 
@@ -235,10 +271,10 @@ export default function Home() {
             {features.map((feature, i) => (
               <Reveal key={feature.title} delay={i * 90}>
                 <TiltCard className="h-full">
-                  <div className="spotlight-card group relative flex h-full flex-col overflow-hidden rounded-[20px] bg-white p-[1.5px] shadow-sm">
-                    <div className="flex h-full flex-col rounded-[18px] bg-white p-6">
+                  <div className="spotlight-card group relative flex h-full flex-col overflow-hidden rounded-[22px] bg-gradient-to-br from-white via-white to-primary/[0.06] p-[1.5px] shadow-sm hover:shadow-[0_16px_40px_rgba(27,44,193,0.10)] hover:-translate-y-1 transition-all duration-300">
+                    <div className="flex h-full flex-col rounded-[20px] bg-white p-6">
                       <div className="flex items-center">
-                        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/12 via-periwinkle/15 to-sky/25 text-primary ring-1 ring-primary/10 shadow-sm transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:bg-primary group-hover:text-white group-hover:scale-105 group-hover:rotate-2 group-hover:shadow-lg group-hover:shadow-primary/20">
+                        <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/12 via-periwinkle/15 to-sky/25 text-primary ring-1 ring-primary/10 shadow-sm transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:bg-primary group-hover:text-white group-hover:scale-110 group-hover:rotate-2 group-hover:shadow-lg group-hover:shadow-primary/20">
                           {feature.icon}
                         </div>
                       </div>
@@ -256,7 +292,9 @@ export default function Home() {
 
           <Reveal delay={400}>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-3 text-xs font-semibold">
-              <Link href="/contact" className="inline-flex items-center gap-1 rounded-full bg-primary px-6 py-2.5 text-white shadow hover:bg-primary-dark transition">Get a quote →</Link>
+              <Link href="/contact" className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-[#1B2CC1] px-7 py-3 text-white shadow-[0_8px_20px_rgba(27,44,193,0.18)] ring-1 ring-primary/20 transition-all hover:shadow-[0_12px_28px_rgba(27,44,193,0.22)] hover:-translate-y-0.5">
+                Get a quote <span className="transition-transform group-hover:translate-x-0.5">→</span>
+              </Link>
             </div>
           </Reveal>
         </div>
@@ -286,43 +324,7 @@ export default function Home() {
             </div>
           </Reveal>
 
-          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {products.map((product, i) => {
-              const itemId = product.id;
-              return (
-                <Reveal key={product.name} delay={i * 90}>
-                  <TiltCard className="h-full">
-                    <div className="spotlight-card group flex h-full flex-col overflow-hidden rounded-[20px] bg-white p-[1.5px] shadow-sm">
-                      <div className="flex h-full flex-col overflow-hidden rounded-[18px] bg-white">
-                        <div className="relative flex h-44 items-center justify-center overflow-hidden bg-gradient-to-br from-slate-100 via-slate-50 to-white">
-                          <div className="absolute inset-0 bg-gradient-to-br from-primary/0 via-periwinkle/0 to-sky/0 opacity-0 transition duration-500 group-hover:from-primary/[0.06] group-hover:via-periwinkle/10 group-hover:to-sky/10 group-hover:opacity-100" />
-                          <img src={product.image} alt={product.name} className="h-20 w-20 opacity-60 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:opacity-90 group-hover:scale-110 group-hover:rotate-1" />
-                          <span className="absolute left-3 top-3 inline-flex items-center gap-1 rounded-full bg-secondary px-2.5 py-1 text-[10px] font-bold tracking-widest text-white shadow-sm">IN STOCK</span>
-                          <span className="absolute bottom-3 right-3 flex h-8 w-8 items-center justify-center rounded-full bg-white text-secondary shadow-md ring-1 ring-gray-100 opacity-0 translate-y-2 transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:opacity-100 group-hover:translate-y-0">
-                            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-                          </span>
-                          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-                        </div>
-                        <div className="flex flex-1 flex-col p-5">
-                          <div className="flex items-center gap-2 text-[11px] font-bold tracking-widest text-steel-gray/60">
-                            <span className="h-px w-4 bg-primary/30" /> ITEM #{itemId}
-                          </div>
-                          <h3 className="mt-2 text-[15px] font-bold tracking-tight text-secondary transition-colors group-hover:text-primary">{product.name}</h3>
-                          <p className="mt-1.5 text-[13px] leading-relaxed text-gray-600">{product.description}</p>
-                          <div className="mt-auto pt-4">
-                            <Link href="/contact" className="inline-flex items-center justify-center gap-1.5 self-start rounded-full bg-primary px-4 py-2 text-xs font-bold tracking-wide text-white shadow-sm ring-1 ring-primary/10 transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:bg-primary-dark hover:shadow-md hover:-translate-y-0.5 active:translate-y-0">
-                            Get Quote <svg className="h-3 w-3 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.2} d="M9 5l7 7-7 7" /></svg>
-                          </Link>
-                          </div>
-                        </div>
-                        <div className="h-1 w-0 bg-gradient-to-r from-primary via-periwinkle to-sky transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:w-full" />
-                      </div>
-                    </div>
-                  </TiltCard>
-                </Reveal>
-              );
-            })}
-          </div>
+          <HomeProductGrid products={products} />
 
           <Reveal delay={200}>
             <div className="mt-10 flex justify-center">
@@ -346,9 +348,14 @@ export default function Home() {
           <Reveal>
             <div className="mx-auto max-w-2xl text-center">
               <div className="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1 text-xs font-bold tracking-widest text-primary ring-1 ring-gray-200 shadow-sm">
-                <span className="text-amber-400">★★★★★</span> CLIENT FEEDBACK
+                <span className="flex items-center gap-0.5 text-amber-400">★★★★★</span> CLIENT FEEDBACK
+                <span className="hidden sm:inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-bold text-emerald-700 ring-1 ring-emerald-200">4.9/5 • 1,200+ reviews</span>
               </div>
-              <h2 className="mt-3 text-2xl font-extrabold tracking-tight text-secondary sm:text-3xl">What our partners say</h2>
+              <h2 className="mt-3 text-2xl font-extrabold tracking-tight text-secondary sm:text-3xl lg:text-[32px]">
+                What our <span className="bg-gradient-to-r from-[#1B2CC1] via-[#4158f5] to-[#7692FF] bg-clip-text text-transparent">partners say</span>
+              </h2>
+              <p className="mt-2 text-sm font-medium tracking-wide text-gray-500">Trusted for precision manufacturing • Verified • 5.0 average</p>
+              <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-primary to-[#7692FF]" />
             </div>
           </Reveal>
 

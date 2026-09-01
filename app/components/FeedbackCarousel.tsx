@@ -9,6 +9,7 @@ const feedbacks = [
     name: "A. Kumar — Procurement Head",
     company: "Dubai Construction Group • UAE",
     text: "Gratus India delivered exactly what we needed — on time, certified, and precisely to spec. Their wire products have become our go-to for infrastructure projects.",
+    avatar: "/website-images/pravatar-15.jpg",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const feedbacks = [
     name: "R. Sharma — Project Manager",
     company: "Mumbai InfraBuild • India",
     text: "Consistent quality and on-time documentation. The sheets and coils were exactly as per mill test certificates — zero rework needed.",
+    avatar: "/website-images/pravatar-12.jpg",
   },
   {
     id: 3,
@@ -23,6 +25,7 @@ const feedbacks = [
     name: "J. Singh — Factory Head",
     company: "Delhi Fab Works • India",
     text: "Custom sizes and competitive pricing as a direct manufacturer. Our repeat orders are now fully with Gratus India.",
+    avatar: "/website-images/pravatar-14.jpg",
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ const feedbacks = [
     name: "M. Al Farsi — Sourcing Lead",
     company: "Muscat Steel Traders • Oman",
     text: "Export-quality packing and responsive team. Quotes within 24 hours and clear lead times — very professional experience.",
+    avatar: "/website-images/pravatar-33.jpg",
   },
   {
     id: 5,
@@ -37,6 +41,7 @@ const feedbacks = [
     name: "P. Verma — Managing Director",
     company: "Pune Engineering Co. • India",
     text: "Lab-tested quality with reliable logistics. Fasteners and pipes performed perfectly on site, we will continue ordering.",
+    avatar: "/website-images/pravatar-16.jpg",
   },
   {
     id: 6,
@@ -44,6 +49,7 @@ const feedbacks = [
     name: "N. Shaikh — Purchase Officer",
     company: "Doha Industrial Supply • Qatar",
     text: "From inquiry to dispatch, the process was transparent and fast. Support is the fastest we have seen.",
+    avatar: "/website-images/pravatar-32.jpg",
   },
 ];
 
@@ -139,26 +145,34 @@ export default function FeedbackCarousel() {
               className="w-full shrink-0 px-3 md:w-1/2"
               style={{ flex: `0 0 ${100 / visible}%`, maxWidth: `${100 / visible}%` }}
             >
-              <div className="relative flex h-full min-h-[260px] flex-col rounded-[24px] bg-white p-7 sm:p-8 shadow-[0_8px_32px_rgba(9,21,64,0.08),0_2px_8px_rgba(9,21,64,0.06)] ring-1 ring-gray-200/70">
-                <div className="pointer-events-none absolute -inset-1 -z-10 rounded-[28px] bg-gradient-to-br from-primary/10 via-periwinkle/8 to-sky/10 opacity-60 blur-xl" />
-                <div className="absolute right-6 top-6 hidden h-12 w-12 items-center justify-center rounded-2xl bg-primary/5 text-primary/15 sm:flex">
-                  <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M6 17h3l2-4V7H5v6h3l-2 4zm9 0h3l2-4V7h-6v6h3l-2 4z" /></svg>
-                </div>
-                <div className="flex flex-wrap items-center gap-2 text-amber-400">
-                  <span className="text-sm tracking-widest">★★★★★</span>
-                  <span className="rounded-full bg-amber-50 px-2.5 py-1 text-xs font-bold tracking-wide text-amber-700 ring-1 ring-amber-200">5.0 • Verified</span>
-                </div>
-                <p className="mt-1 text-xs font-medium text-gray-500">Trusted for precision manufacturing</p>
-                <blockquote className="mt-4 flex-1 text-[15.5px] font-medium leading-relaxed text-secondary">
-                  &quot;{fb.text}&quot;
-                </blockquote>
-                <div className="mt-6 flex items-center gap-3.5 border-t border-gray-100 pt-6">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-br from-secondary to-primary text-sm font-bold text-white shadow-md ring-1 ring-white">{fb.initials}</span>
-                  <div>
-                    <div className="text-sm font-bold tracking-tight text-secondary">{fb.name}</div>
-                    <div className="text-xs font-medium text-gray-500">{fb.company}</div>
+              <div className="group relative flex h-full min-h-[300px] flex-col overflow-hidden rounded-[28px] bg-gradient-to-br from-white via-white to-primary/[0.06] p-[1.5px] shadow-[0_12px_40px_rgba(9,21,64,0.08)] hover:shadow-[0_20px_60px_rgba(9,21,64,0.12)] hover:-translate-y-1 transition-all">
+                <div className="relative flex h-full flex-col rounded-[26px] bg-white p-7 sm:p-8">
+                  <div className="pointer-events-none absolute -top-12 -right-12 h-32 w-32 rounded-full bg-primary/5 blur-2xl group-hover:bg-primary/[0.08] transition-colors" />
+                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-primary/[0.03] via-transparent to-periwinkle/[0.04] opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <div className="absolute right-5 top-5 hidden h-10 w-10 items-center justify-center rounded-xl bg-primary/5 text-primary/20 group-hover:bg-primary group-hover:text-white group-hover:scale-110 group-hover:rotate-3 transition-all sm:flex">
+                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M6 17h3l2-4V7H5v6h3l-2 4zm9 0h3l2-4V7h-6v6h3l-2 4z" /></svg>
                   </div>
-                  <span className="ml-auto hidden sm:inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-50 text-emerald-600 ring-1 ring-emerald-200">✓</span>
+                  <div className="flex items-center gap-2">
+                    <span className="flex text-sm tracking-widest text-amber-400">★★★★★</span>
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-amber-400 to-orange-500 px-2.5 py-1 text-xs font-bold tracking-wide text-white shadow-sm ring-1 ring-amber-200">5.0 • Verified</span>
+                    <span className="ml-auto hidden sm:inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-1 text-[11px] font-semibold text-emerald-700 ring-1 ring-emerald-200"><span className="h-1.5 w-1.5 rounded-full bg-emerald-500" /> Verified</span>
+                  </div>
+                  <p className="mt-1.5 text-xs font-semibold tracking-wide text-primary/60">Trusted for precision manufacturing</p>
+                  <blockquote className="relative mt-4 flex-1 text-[16px] font-medium leading-relaxed text-secondary">
+                    <span className="absolute -left-1 -top-1 text-3xl font-black leading-none text-primary/10">“</span>
+                    <span className="relative">{fb.text}</span>
+                  </blockquote>
+                  <div className="mt-6 flex items-center gap-3.5 border-t border-gray-100 pt-5">
+                    <div className="relative">
+                      <img src={fb.avatar} alt={fb.name} className="h-11 w-11 rounded-full object-cover ring-2 ring-white shadow-md" loading="lazy" />
+                      <span className="absolute -bottom-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500 text-[10px] font-bold text-white ring-2 ring-white shadow-sm">✓</span>
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="truncate text-sm font-bold tracking-tight text-secondary">{fb.name}</div>
+                      <div className="truncate text-xs font-medium text-gray-500">{fb.company}</div>
+                    </div>
+                    <span className="hidden h-8 w-8 shrink-0 items-center justify-center rounded-full bg-secondary text-[11px] font-bold text-white shadow-md ring-1 ring-white sm:flex">{fb.initials}</span>
+                  </div>
                 </div>
               </div>
             </div>

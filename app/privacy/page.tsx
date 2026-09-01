@@ -12,7 +12,8 @@ const sections = [
     n: "01",
     title: "Information We Collect",
     icon: "M12 11a3 3 0 100-6 3 3 0 000 6z M6 21v-1a6 6 0 0112 0v1",
-    content: "Name, email, phone, company & address when you contact us. Plus usage data (IP, browser, pages) and cookies for analytics.",
+    content: "Name, email, phone, company & address when you contact us. Plus usage data (browser, pages) for analytics.",
+
   },
   {
     n: "02",
@@ -62,7 +63,6 @@ export default function PrivacyPage() {
             <div className="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1 text-xs font-bold tracking-widest text-primary ring-1 ring-gray-200 shadow-sm">
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
               PRIVACY • SHORT & CLEAR
-              <span className="hidden sm:inline-flex rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] text-emerald-700 ring-1 ring-emerald-200">GDPR Compliant</span>
             </div>
             <h1 className="mt-4 text-4xl font-extrabold tracking-tight sm:text-[42px] leading-[0.95]">
               <span className="text-secondary">Privacy</span>{" "}
@@ -72,8 +72,8 @@ export default function PrivacyPage() {
               Short, transparent and no legal jargon. Here is how we handle your data — in under 2 minutes.
             </p>
             <div className="mt-4 flex flex-wrap justify-center gap-2 text-xs font-semibold">
-              <span className="rounded-full bg-white px-3 py-1.5 text-secondary ring-1 ring-gray-200">Effective: Jan 2025</span>
-              <span className="rounded-full bg-secondary px-3 py-1.5 text-white shadow-sm">Last updated: Jan 2025</span>
+              <span className="rounded-full bg-white px-3 py-1.5 text-secondary ring-1 ring-gray-200">Effective: April 2026</span>
+              <span className="rounded-full bg-secondary px-3 py-1.5 text-white shadow-sm">Last updated: April 2026</span>
             </div>
           </Reveal>
         </div>
@@ -127,14 +127,7 @@ export default function PrivacyPage() {
             </div>
           </Reveal>
 
-          <Reveal delay={400}>
-            <div className="mt-6 flex flex-wrap justify-center gap-2 text-[11px] font-medium text-gray-500">
-              <span>© {new Date().getFullYear()} Gratus India •</span>
-              <Link href="/" className="hover:text-primary underline underline-offset-4">Home</Link>
-              <span>•</span>
-              <Link href="/contact" className="hover:text-primary underline underline-offset-4">Contact</Link>
-            </div>
-          </Reveal>
+
         </div>
       </section>
     </>
